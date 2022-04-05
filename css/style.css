@@ -1,0 +1,80 @@
+h1 {
+    font-family: 'Fira Sans', sans-serif;
+    text-align: center;
+    font-size: 35px;
+    color: #005288;
+}
+
+.text,
+.usa {
+    font-family: 'Fira Sans', sans-serif;
+    text-align: center;
+    color: #005288;
+    font-size: 18px;
+}
+
+
+h3 {
+
+    font-family: 'Fira Sans', sans-serif;
+    color: #005288;
+}
+
+.mapboxgl-popup-content {
+    text-align: center;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+#map {
+    width: 100vw;
+    height: 100vh;
+}
+
+.marker {
+    background-image: url('../images/761777.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 600px) {
+
+
+    .text {
+        display: none;
+
+    }
+    .usa{
+        
+        font-size: 15px;
+        color: black;
+    }
+    h1 {
+       font-size: 20px;
+    }
+}
+
+@media only screen and (min-width: 650px) {
+    .usa {
+        display: none;
+    }
+    h1 {
+     
+    }
+  
+    
+@media only screen and (min-width: 1200px) {
+    .usa {
+        display: none;
+    }
+    
+    h1{
+       font-size: 35px; 
+    }  
+    .text, .usa {
+        
+        font-size: 18px;
+    }
+}
